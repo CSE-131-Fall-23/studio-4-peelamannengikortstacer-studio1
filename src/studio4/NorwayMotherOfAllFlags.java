@@ -77,7 +77,7 @@ public class NorwayMotherOfAllFlags {
 							netherlands();
 							if (DialogBoxes.askUser("Continue to Flag of Poland?", "Current: Netherlands",
 									JOptionPane.QUESTION_MESSAGE, options)) {
-								poland();
+								poland()e;
 								if (DialogBoxes.askUser("Continue to Flag of Thailand?", "Current: Poland",
 										JOptionPane.QUESTION_MESSAGE, options)) {
 									thailand();

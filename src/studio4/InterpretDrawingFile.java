@@ -19,6 +19,16 @@ public class InterpretDrawingFile {
 		chooser.showOpenDialog(null);
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
-		
+		String shape = in.next();
+		if (shape == "triangle") {
+			System.out.println("amazing");
+		}
+		else if (shape == "rectangle") {
+			
+		}
+		else {
+			
+		}
+	
 	}
 }
